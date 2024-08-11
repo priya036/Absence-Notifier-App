@@ -24,7 +24,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await axios.get(`http://localhost:4000/api/login?email=${facultyInfo.email}&password=${facultyInfo.password}`);
+      const response = await axios.get(`https://absence-notifier-api.onrender.com/api/login?email=${facultyInfo.email}&password=${facultyInfo.password}`);
 
       if (response.status === 200) {
         console.log('Authentication successful');

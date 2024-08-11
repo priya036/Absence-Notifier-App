@@ -25,7 +25,7 @@ function StudentInfo() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/api/register/student', studentInfo);
+      const response = await axios.post('https://absence-notifier-api.onrender.com/api/register/student', studentInfo);
 
       if (response.status === 201) {
         console.log('Student information saved successfully');

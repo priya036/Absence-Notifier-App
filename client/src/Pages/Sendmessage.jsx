@@ -14,7 +14,7 @@ function SendSms() {
 
   const fetchStudentData = async () => {
     try {
-      const response = await axios.get(`http://localhost:4000/api/student/${rollNumber}`);
+      const response = await axios.get(`https://absence-notifier-api.onrender.com/api/student/${rollNumber}`);
 
       if (response.status === 200) {
         setStudentData(response.data);
@@ -29,7 +29,7 @@ function SendSms() {
 
   const sendSms = async () => {
     try {
-      const response = await axios.post('http://localhost:4000/api/send-sms', {
+      const response = await axios.post('https://absence-notifier-api.onrender.com/api/send-sms', {
         rollNumber,
       });
 

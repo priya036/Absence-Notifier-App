@@ -21,7 +21,7 @@ function ImageUploader() {
       formData.append('image', selectedImage);
 
       try {
-        const response = await fetch('http://localhost:4000/upload', {
+        const response = await fetch('https://absence-notifier-api.onrender.com/upload', {
           method: 'POST',
           body: formData,
         });

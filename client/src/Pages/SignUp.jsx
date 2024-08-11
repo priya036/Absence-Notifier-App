@@ -32,7 +32,7 @@ function Signup() {
     }
 
     try {
-      const response = await axios.post('http://localhost:4000/api/register/faculty', facultyInfo);
+      const response = await axios.post('https://absence-notifier-api.onrender.com/api/register/faculty', facultyInfo);
 
       if (response.status === 201) {
         toast.success('Faculty registration successful');
