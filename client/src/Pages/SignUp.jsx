@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../css/signup.css';
 import signup from '../assets/signup.png';
-import { Link } from 'react-router-dom';
+import { Link , useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,6 +14,7 @@ function Signup() {
     password: '',
     confirmPassword: '',
   });
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -36,7 +37,7 @@ function Signup() {
 
       if (response.status === 201) {
         toast.success('Faculty registration successful');
-        window.location = '/regisucess'; 
+        navigate('/regisucess')
       } else if (response.status === 400) {
         toast.error('Email already exists');
       } else {
