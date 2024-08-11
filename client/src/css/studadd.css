@@ -1,0 +1,57 @@
+/* studadd.css */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white; /* Set the background color to white */
+  padding: 20px; /* Add some padding to the container */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  max-width: 400px; /* Limit the container width */
+  margin: 0 auto; /* Center the container horizontally */
+  margin-top: 100px;
+}
+
+.student-logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.center-container h2 {
+  margin-top: 0;
+}
+
+.center-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.center-container label {
+  text-align: left;
+  width: 100%;
+}
+
+.center-container input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.center-container button {
+  background-color: #4CAF50; /* Set the background color to green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth color transition */
+}
+
+.center-container button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}

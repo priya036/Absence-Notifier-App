@@ -1,0 +1,81 @@
+.back {
+    margin: 0;
+    padding: 0;
+    background-color: #4F5182; /* Set the background color to blue for the entire page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use height instead of min-height for full-page background */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px; /* Set a max width for the container */
+    width: 100%;
+    padding: 20px; /* Add some padding to the container */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 100%;
+    max-width: 800px; /* Adjust the max width to match the container */
+    justify-content: center;
+    align-items: center;
+}
+  
+  .form-container .left {
+    flex: 1;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container .right {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .submit-buttons {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    /* Remove display: none; to make the button visible */
+  }
+  
+  .image-container {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .signup-link {
+    color: blue;
+    text-decoration: underline; /* Add underlining to the link text */
+  }
+  .link{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,82 @@
+/* send-sms.css */
+.back-blue {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container .left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .form-container .right {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container .left form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container .left h2 {
+    text-align: center;
+  }
+  
+  .container .right button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .container .right p {
+    text-align: center;
+  }
+  
+  /* Add more styles as needed */
+  
